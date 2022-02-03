@@ -1,0 +1,128 @@
+body {
+    font-family: Samim, sans-serif !important;
+    margin: 0;
+    padding: 0;
+    background-color: #18E9E8 !important;
+}
+
+.container {
+    background-color: #324B4B;
+    margin: 30px auto;
+    min-height: 550px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.input-box {
+    padding: 20px;
+}
+
+.input-box input {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 10px;
+    width: 65%;
+}
+
+.input-box input:focus, .input-box input:hover {
+    background-color: #E6F4F1;
+}
+
+.groups-button {
+    display: inline;
+    height: 34px;
+    width: 46px;
+    position: absolute;
+    margin-left: 5px;
+    border-radius: 20px;
+    border: solid 1px #fff;
+    transition: all .5s !important;
+}
+
+.groups-button a {
+    margin: 0;
+    color: #E6F4F1;
+    border-radius: 20px;
+    border: none;
+    transition: all .5s;
+    text-align: left;
+    position: absolute;
+    background-color: #324B4B;
+    cursor: pointer;
+}
+
+.groups-button a:hover {
+    color: #000;
+}
+
+#PlusIcon {
+    transition: all .5s;
+}
+
+.icon-free-time {
+    margin-left: 44px;
+    border-radius: 0;
+}
+
+.icon-work {
+    margin-left: 88px;
+    border-radius: 0;
+}
+
+.icon-lesson {
+    margin-left: 132px;
+    border-radius: 20px;
+}
+
+#submit_btn {
+    z-index: 1;
+}
+
+.list-box {
+    padding: 20px 20px 50px 20px;
+}
+
+.color-pink {
+    background-color: #EE6774;
+}
+
+.color-orange {
+    background-color: #FF8748;
+}
+
+.color-green {
+    background-color: #77B877;
+}
+
+ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+li {
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.delete-item {
+    float: right;
+    margin-top: -3px;
+}
+
+.deleted {
+    display: none;
+}
+
+.clear-box {
+    padding: 5px 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.bi {
+    vertical-align: -.125rem;
+}
